@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Snapshelf – Support</title>
+<style>
+  :root { color-scheme: light dark; --fg:#1d1d1f; --muted:#6e6e73; --bg:#fff; --card:#f5f5f7; --accent:#6c4cf1; }
+  @media (prefers-color-scheme: dark) { :root { --fg:#f5f5f7; --muted:#a1a1a6; --bg:#111; --card:#1c1c1e; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:17px/1.6 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 56px 16px 80px; }
+  h1 { font-size: 34px; margin: 0 0 4px; }
+  h2 { font-size: 20px; margin: 36px 0 8px; }
+  .muted { color: var(--muted); }
+  a { color: var(--accent); }
+  details { background:var(--card); border-radius:12px; padding:14px 18px; margin:10px 0; }
+  summary { font-weight:600; cursor:pointer; }
+  kbd { font:14px "SF Mono", Menlo, monospace; background:var(--card); border:1px solid #8884; border-radius:5px; padding:1px 6px; }
+  .contact { background:var(--card); border-radius:12px; padding:18px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Snapshelf</h1>
+  <p class="muted">Screenshots &amp; Bildschirmaufnahmen aus der Menüleiste – Support &amp; Hilfe</p>
+
+  <h2>Kontakt</h2>
+  <div class="contact">Fragen, Fehler oder Wünsche? Schreib uns:<br>
+  <a href="mailto:KONTAKT@DEINE-DOMAIN">KONTAKT@DEINE-DOMAIN</a><br>
+  <span class="muted">Wir antworten in der Regel innerhalb von 2 Werktagen.</span></div>
+
+  <h2>Kurzbefehle</h2>
+  <p><kbd>⌥⇧1</kbd> Bereich · <kbd>⌥⇧2</kbd> Fenster · <kbd>⌥⇧3</kbd> Bildschirm<br>
+  <kbd>⌥⇧4</kbd> Bereich aufnehmen · <kbd>⌥⇧5</kbd> Bildschirm aufnehmen · <kbd>⌥⇧L</kbd> Mediathek<br>
+  <span class="muted">Alle Kurzbefehle lassen sich in den Einstellungen ändern.</span></p>
+
+  <h2>Häufige Fragen</h2>
+  <details><summary>Wo finde ich Snapshelf nach dem Start?</summary>
+  <p>Snapshelf lebt in der Menüleiste (Kamera-Symbol oben rechts) und hat kein Dock-Symbol.</p></details>
+  <details><summary>Screenshots sind schwarz oder zeigen nur den Hintergrund</summary>
+  <p>Öffne <em>Systemeinstellungen → Datenschutz &amp; Sicherheit → Bildschirm- &amp; Systemaudioaufnahme</em>, aktiviere Snapshelf und starte die App neu.</p></details>
+  <details><summary>Wo werden meine Aufnahmen gespeichert?</summary>
+  <p>Standardmäßig in <em>Bilder/Snapshelf</em>. In den Einstellungen kannst du einen eigenen Ordner wählen.</p></details>
+  <details><summary>Wie nehme ich Ton auf?</summary>
+  <p>Aktiviere in den Einstellungen unter <em>Aufnahme</em> Systemaudio und/oder Mikrofon. Das Mikrofon wird erst dann angefragt.</p></details>
+  <details><summary>Kann ich Snapshelf per Kurzbefehle-App, Raycast oder Stream Deck steuern?</summary>
+  <p>Ja, über URL-Befehle: <code>snapshelf://area</code>, <code>window</code>, <code>screen</code>, <code>record-area</code>, <code>record-screen</code>, <code>stop</code>, <code>library</code>.</p></details>
+  <details><summary>Sammelt Snapshelf Daten?</summary>
+  <p>Nein. Keine Konten, kein Tracking, keine Cloud. Details in der <a href="datenschutz.html">Datenschutzerklärung</a>.</p></details>
+
+  <p class="muted" style="margin-top:36px">© 2026 Story Horse Studios · <a href="datenschutz.html">Datenschutz</a></p>
+</main>
+</body>
+</html>
